@@ -1,0 +1,14 @@
+{
+    "extends": "tslint-config-airbnb",
+    "rules": {
+        "ter-indent": [
+            "error",
+            4,
+            {"SwitchCase": 1}
+        ],
+        "ter-max-len": [true, 120],
+        "func-names": ["warn", "as-needed"],
+        "no-unused-expressions": [0],
+        "variable-name": [true, "ban-keywords", "check-format", "allow-pascal-case"]
+    }
+}
